@@ -1,0 +1,44 @@
+public class CalculadoraSimple {
+    
+    // La firma que siempre verás: el punto de entrada
+    public static void main(String[] args) {
+
+        int a = 15;
+        int b = 4;
+
+        System.out.println("Valores iniciales: a = " + a + ", b = " + b);
+        System.out.println("----------------------------");
+
+        //--- Operadores Aritmeticos ---
+
+        //suma
+        System.out.println("Suma (a + b): " + (a + b));
+
+        //resta
+
+        System.out.println("Resta (a - b): " + (a - b));
+
+        //multiplicacion
+
+        System.out.println("multiplicacion (a * b): " + (a * b));
+
+        //division entera java solo devuelve la parte entera: 15 / 4 = 3
+
+        System.out.println("Division Entera (a / b): " + (a / b));
+
+        //modulo o resto lo que queda de 15 / 4, que es 3 (no lo entiendo)
+
+        System.out.println("Modulo (a % b): " + (a % b));
+
+        // ------ 2. operador de asignacion abreviado (no entiendo)---
+
+        System.out.println("Valor de 'a' antes de la operacion: " + a);
+
+        //operador abreviado: a += 10 es lo mismo que a = a + 10 (no entiendo)
+        a += 10;
+
+        System.out.println("Valor de 'a' despues de a += 10:");
+
+
+    }
+}
